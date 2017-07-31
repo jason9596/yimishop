@@ -1,0 +1,456 @@
+[ 2016-04-25T20:22:27+08:00 ] ::1 /yimishop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.036117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015045s ]
+SQL: SHOW COLUMNS FROM `er_goods` [ RunTime:0.1463s ]
+SQL: SELECT * FROM `er_goods` ORDER BY g_time desc  [ RunTime:0.0464s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000381s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000753s ]
+NOTIC: [8] Undefined index: account G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\172b237dad6c19ecd19d3f49b4a85426.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.115686s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.116029s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003438s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.018961s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019547s ]
+
+[ 2016-04-25T20:22:30+08:00 ] ::1 /yimishop/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+SQL: SHOW COLUMNS FROM `er_user` [ RunTime:0.0353s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000255s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000664s ]
+NOTIC: [8] Undefined index: pwd G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\76529125346a20bd00a90797650567e4.php 第 40 行.
+NOTIC: [8] Undefined index: remember G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\76529125346a20bd00a90797650567e4.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027948s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028259s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000986s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001070s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001362s ]
+
+[ 2016-04-25T20:22:39+08:00 ] ::1 /yimishop/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+SQL: SHOW COLUMNS FROM `er_user` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`account`,`username` FROM `er_user` WHERE `account` = '2425399474@qq.com' AND `pwd` = '96e79218965eb72c92a549dd5a330112' LIMIT 1   [ RunTime:0.2363s ]
+
+[ 2016-04-25T20:22:40+08:00 ] ::1 /yimishop/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000985s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001407s ]
+SQL: SHOW COLUMNS FROM `er_goods` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `er_goods` ORDER BY g_time desc  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000239s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000453s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017709s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000878s ]
+
+[ 2016-04-25T20:34:43+08:00 ] ::1 /yimishop/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000804s ]
+SQL: SHOW COLUMNS FROM `er_goods` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `er_goods` ORDER BY g_time desc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000294s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011525s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011680s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000560s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000750s ]
+
+[ 2016-04-25T20:34:45+08:00 ] ::1 /yimishop/Home/Product/detail/gid/33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002156s ]
+SQL: SHOW COLUMNS FROM `er_goods` [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `er_comm` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `er_activities` [ RunTime:0.0427s ]
+SQL: SELECT er_goods.*,er_user.username,er_school.school FROM `er_goods` LEFT JOIN er_user ON er_goods.uid=er_user.id LEFT JOIN er_school ON er_school.id=er_user.scid  WHERE er_goods.id = '33' LIMIT 1   [ RunTime:0.0197s ]
+SQL: SELECT `id`,`g_name`,`g_img`,`price` FROM `er_goods` WHERE (  `g_name` LIKE '%相宜本草%' OR `cid` = '10' ) AND `id` <> '33'  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`g_name`,`g_img`,`price` FROM `er_goods` WHERE `uid` = 3 LIMIT 4   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `er_comm` WHERE `co_gid` = 33  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000201s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000338s ]
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 172 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 180 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 182 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 183 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 184 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 185 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 186 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020753s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020906s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000653s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000831s ]
+
+[ 2016-04-25T20:34:57+08:00 ] ::1 /yimishop/Home/Product/detail/gid/33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+SQL: SHOW COLUMNS FROM `er_goods` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `er_comm` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `er_activities` [ RunTime:0.0024s ]
+SQL: SELECT er_goods.*,er_user.username,er_school.school FROM `er_goods` LEFT JOIN er_user ON er_goods.uid=er_user.id LEFT JOIN er_school ON er_school.id=er_user.scid  WHERE er_goods.id = '33' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`g_name`,`g_img`,`price` FROM `er_goods` WHERE (  `g_name` LIKE '%相宜本草%' OR `cid` = '10' ) AND `id` <> '33'  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`g_name`,`g_img`,`price` FROM `er_goods` WHERE `uid` = 3 LIMIT 4   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `er_comm` WHERE `co_gid` = 33  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000200s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000337s ]
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 172 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 180 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 182 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 183 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 184 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 185 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 186 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018823s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018974s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000629s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000779s ]
+
+[ 2016-04-25T20:39:48+08:00 ] ::1 /yimishop/Home/Product/detail/gid/33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+SQL: SHOW COLUMNS FROM `er_goods` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `er_comm` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `er_activities` [ RunTime:0.0029s ]
+SQL: SELECT er_goods.*,er_user.username,er_school.school FROM `er_goods` LEFT JOIN er_user ON er_goods.uid=er_user.id LEFT JOIN er_school ON er_school.id=er_user.scid  WHERE er_goods.id = '33' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`g_name`,`g_img`,`price` FROM `er_goods` WHERE (  `g_name` LIKE '%相宜本草%' OR `cid` = '10' ) AND `id` <> '33'  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`g_name`,`g_img`,`price` FROM `er_goods` WHERE `uid` = 3 LIMIT 4   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `er_comm` WHERE `co_gid` = 33  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000332s ]
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 172 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 180 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 182 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 183 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 184 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 185 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 186 行.
+NOTIC: [8] Undefined variable: nums G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 213 行.
+NOTIC: [8] Undefined variable: config G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 214 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025360s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000659s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000861s ]
+
+[ 2016-04-25T20:40:21+08:00 ] ::1 /yimishop/Home/Product/detail/gid/33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+SQL: SHOW COLUMNS FROM `er_goods` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `er_comm` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `er_activities` [ RunTime:0.0023s ]
+SQL: SELECT er_goods.*,er_user.username,er_school.school FROM `er_goods` LEFT JOIN er_user ON er_goods.uid=er_user.id LEFT JOIN er_school ON er_school.id=er_user.scid  WHERE er_goods.id = '33' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`g_name`,`g_img`,`price` FROM `er_goods` WHERE (  `g_name` LIKE '%相宜本草%' OR `cid` = '10' ) AND `id` <> '33'  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`g_name`,`g_img`,`price` FROM `er_goods` WHERE `uid` = 3 LIMIT 4   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `er_comm` WHERE `co_gid` = 33  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000210s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000353s ]
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 172 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 180 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 182 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 183 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 184 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 185 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 186 行.
+NOTIC: [8] Undefined variable: nums G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 214 行.
+NOTIC: [8] Undefined variable: config G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 215 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020363s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020526s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000667s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000871s ]
+
+[ 2016-04-25T20:40:49+08:00 ] ::1 /yimishop/Home/Product/detail/gid/33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+SQL: SHOW COLUMNS FROM `er_goods` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `er_comm` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `er_activities` [ RunTime:0.0030s ]
+SQL: SELECT er_goods.*,er_user.username,er_school.school FROM `er_goods` LEFT JOIN er_user ON er_goods.uid=er_user.id LEFT JOIN er_school ON er_school.id=er_user.scid  WHERE er_goods.id = '33' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`g_name`,`g_img`,`price` FROM `er_goods` WHERE (  `g_name` LIKE '%相宜本草%' OR `cid` = '10' ) AND `id` <> '33'  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`g_name`,`g_img`,`price` FROM `er_goods` WHERE `uid` = 3 LIMIT 4   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `er_comm` WHERE `co_gid` = 33  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000330s ]
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 172 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 180 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 182 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 183 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 184 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 185 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 186 行.
+NOTIC: [8] Undefined variable: nums G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 214 行.
+NOTIC: [8] Undefined variable: config G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 215 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018553s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018727s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000761s ]
+
+[ 2016-04-25T20:41:45+08:00 ] ::1 /yimishop/Home/Product/detail/gid/33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+SQL: SHOW COLUMNS FROM `er_goods` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `er_comm` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `er_activities` [ RunTime:0.0024s ]
+SQL: SELECT er_goods.*,er_user.username,er_school.school FROM `er_goods` LEFT JOIN er_user ON er_goods.uid=er_user.id LEFT JOIN er_school ON er_school.id=er_user.scid  WHERE er_goods.id = '33' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`g_name`,`g_img`,`price` FROM `er_goods` WHERE (  `g_name` LIKE '%相宜本草%' OR `cid` = '10' ) AND `id` <> '33'  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`g_name`,`g_img`,`price` FROM `er_goods` WHERE `uid` = 3 LIMIT 4   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `er_comm` WHERE `co_gid` = 33  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000217s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000375s ]
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 172 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 180 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 182 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 183 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 184 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 185 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 186 行.
+NOTIC: [8] Undefined variable: nums G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 214 行.
+NOTIC: [8] Undefined variable: config G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 215 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018767s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018939s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000684s ]
+
+[ 2016-04-25T20:41:59+08:00 ] ::1 /yimishop/Home/Product/detail/gid/33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000795s ]
+SQL: SHOW COLUMNS FROM `er_goods` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `er_comm` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `er_activities` [ RunTime:0.0031s ]
+SQL: SELECT er_goods.*,er_user.username,er_school.school FROM `er_goods` LEFT JOIN er_user ON er_goods.uid=er_user.id LEFT JOIN er_school ON er_school.id=er_user.scid  WHERE er_goods.id = '33' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`g_name`,`g_img`,`price` FROM `er_goods` WHERE (  `g_name` LIKE '%相宜本草%' OR `cid` = '10' ) AND `id` <> '33'  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`g_name`,`g_img`,`price` FROM `er_goods` WHERE `uid` = 3 LIMIT 4   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `er_comm` WHERE `co_gid` = 33  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000201s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000349s ]
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 172 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 180 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 182 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 183 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 184 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 185 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 186 行.
+NOTIC: [8] Undefined variable: nums G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 214 行.
+NOTIC: [8] Undefined variable: config G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 215 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019228s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019455s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000647s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000850s ]
+
+[ 2016-04-25T20:42:19+08:00 ] ::1 /yimishop/Home/Product/detail/gid/33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000904s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+SQL: SHOW COLUMNS FROM `er_goods` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `er_comm` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `er_activities` [ RunTime:0.0026s ]
+SQL: SELECT er_goods.*,er_user.username,er_school.school FROM `er_goods` LEFT JOIN er_user ON er_goods.uid=er_user.id LEFT JOIN er_school ON er_school.id=er_user.scid  WHERE er_goods.id = '33' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`g_name`,`g_img`,`price` FROM `er_goods` WHERE (  `g_name` LIKE '%相宜本草%' OR `cid` = '10' ) AND `id` <> '33'  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`g_name`,`g_img`,`price` FROM `er_goods` WHERE `uid` = 3 LIMIT 4   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `er_comm` WHERE `co_gid` = 33  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000203s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000347s ]
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 172 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 180 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 182 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 183 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 184 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 185 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 186 行.
+NOTIC: [8] Undefined variable: nums G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 214 行.
+NOTIC: [8] Undefined variable: config G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 215 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019383s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019540s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000518s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000718s ]
+
+[ 2016-04-25T20:42:33+08:00 ] ::1 /yimishop/Home/Product/detail/gid/33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+SQL: SHOW COLUMNS FROM `er_goods` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `er_comm` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `er_activities` [ RunTime:0.0032s ]
+SQL: SELECT er_goods.*,er_user.username,er_school.school FROM `er_goods` LEFT JOIN er_user ON er_goods.uid=er_user.id LEFT JOIN er_school ON er_school.id=er_user.scid  WHERE er_goods.id = '33' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`g_name`,`g_img`,`price` FROM `er_goods` WHERE (  `g_name` LIKE '%相宜本草%' OR `cid` = '10' ) AND `id` <> '33'  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`g_name`,`g_img`,`price` FROM `er_goods` WHERE `uid` = 3 LIMIT 4   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `er_comm` WHERE `co_gid` = 33  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000210s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000356s ]
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 172 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 180 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 182 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 183 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 184 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 185 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 186 行.
+NOTIC: [8] Undefined variable: nums G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 214 行.
+NOTIC: [8] Undefined variable: config G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 215 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018709s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018868s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000870s ]
+
+[ 2016-04-25T20:46:21+08:00 ] ::1 /yimishop/Home/Product/detail/gid/33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+SQL: SHOW COLUMNS FROM `er_goods` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `er_comm` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `er_activities` [ RunTime:0.0023s ]
+SQL: SELECT er_goods.*,er_user.username,er_school.school FROM `er_goods` LEFT JOIN er_user ON er_goods.uid=er_user.id LEFT JOIN er_school ON er_school.id=er_user.scid  WHERE er_goods.id = '33' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`g_name`,`g_img`,`price` FROM `er_goods` WHERE (  `g_name` LIKE '%相宜本草%' OR `cid` = '10' ) AND `id` <> '33'  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`g_name`,`g_img`,`price` FROM `er_goods` WHERE `uid` = 3 LIMIT 4   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `er_comm` WHERE `co_gid` = 33  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000346s ]
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 172 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 180 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 182 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 183 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 184 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 185 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 186 行.
+NOTIC: [8] Undefined variable: nums G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 214 行.
+NOTIC: [8] Undefined variable: config G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 215 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019542s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019750s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000763s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000933s ]
+

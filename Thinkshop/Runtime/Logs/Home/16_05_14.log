@@ -1,0 +1,46 @@
+[ 2016-05-14T21:25:05+08:00 ] ::1 /yimishop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.070836s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015151s ]
+SQL: SHOW COLUMNS FROM `er_goods` [ RunTime:0.2153s ]
+SQL: SELECT * FROM `er_goods` ORDER BY g_time desc  [ RunTime:0.0101s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000430s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000778s ]
+NOTIC: [8] Undefined index: account G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\172b237dad6c19ecd19d3f49b4a85426.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.138338s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.138835s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013792s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001995s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002443s ]
+
+[ 2016-05-14T21:31:46+08:00 ] ::1 /yimishop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+SQL: SHOW COLUMNS FROM `er_goods` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `er_goods` ORDER BY g_time desc  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000366s ]
+NOTIC: [8] Undefined index: account G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\172b237dad6c19ecd19d3f49b4a85426.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013293s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013513s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000617s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000851s ]
+

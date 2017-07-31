@@ -1,0 +1,210 @@
+[ 2016-05-03T21:00:54+08:00 ] ::1 /yimishop/Uploads/goods/20160318/M_14582807596_160x160.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-05-03T21:00:54+08:00 ] ::1 /yimishop/Uploads/goods/20160319/M_14583518629_160x160.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000770s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-05-03T21:00:54+08:00 ] ::1 /yimishop/Uploads/goods/20160318/M_14582798784_160x160.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000859s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-05-03T21:00:54+08:00 ] ::1 /yimishop/Uploads/goods/20160319/M_14583519993_160x160.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000872s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-05-03T21:00:54+08:00 ] ::1 /yimishop/Uploads/goods/20160319/M_14583519271_160x160.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000849s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-05-03T21:03:21+08:00 ] ::1 /yimishop/Uploads/goods/20160318/M_14582798784_160x160.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000138s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001476s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-05-03T21:03:22+08:00 ] ::1 /yimishop/Uploads/goods/20160318/M_14582807596_160x160.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001408s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-05-03T21:03:36+08:00 ] ::1 /yimishop/Uploads/goods/20160319/M_14583519993_160x160.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-05-03T21:03:36+08:00 ] ::1 /yimishop/Uploads/goods/20160319/M_14583519271_160x160.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001570s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002172s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-05-03T21:03:36+08:00 ] ::1 /yimishop/Uploads/goods/20160318/M_14582798784_160x160.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-05-03T21:03:36+08:00 ] ::1 /yimishop/Uploads/goods/20160319/M_14583518629_160x160.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-05-03T21:03:36+08:00 ] ::1 /yimishop/Uploads/goods/20160318/M_14582807596_160x160.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000907s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-05-03T21:03:40+08:00 ] ::1 /yimishop/Uploads/goods/20160318/M_14582807596_160x160.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-05-03T21:03:40+08:00 ] ::1 /yimishop/Uploads/goods/20160318/M_14582798784_160x160.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001156s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-05-03T21:44:22+08:00 ] ::1 /yimishop/Uploads/goods/20160319/M_14583519993_160x160.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001251s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-05-03T21:44:22+08:00 ] ::1 /yimishop/Uploads/goods/20160319/M_14583519271_160x160.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000795s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-05-03T21:44:22+08:00 ] ::1 /yimishop/Uploads/goods/20160319/M_14583518629_160x160.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-05-03T21:44:22+08:00 ] ::1 /yimishop/Uploads/goods/20160318/M_14582798784_160x160.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-05-03T21:44:22+08:00 ] ::1 /yimishop/Uploads/goods/20160318/M_14582807596_160x160.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001179s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-05-03T21:44:39+08:00 ] ::1 /yimishop/Uploads/goods/20160318/M_14582807596_160x160.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-05-03T21:44:39+08:00 ] ::1 /yimishop/Uploads/goods/20160319/M_14583519993_160x160.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-05-03T21:44:39+08:00 ] ::1 /yimishop/Uploads/goods/20160319/M_14583519271_160x160.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-05-03T21:44:39+08:00 ] ::1 /yimishop/Uploads/goods/20160319/M_14583518629_160x160.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000985s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-05-03T21:44:39+08:00 ] ::1 /yimishop/Uploads/goods/20160318/M_14582798784_160x160.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-05-03T21:45:01+08:00 ] ::1 /yimishop/Public/img/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+ERR: 无法加载模块:Public
+
+[ 2016-05-03T21:45:32+08:00 ] ::1 /yimishop/Uploads/goods/20160319/M_14583518629_160x160.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-05-03T21:45:32+08:00 ] ::1 /yimishop/Uploads/goods/20160319/M_14583519271_160x160.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-05-03T21:45:32+08:00 ] ::1 /yimishop/Uploads/goods/20160319/M_14583519993_160x160.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000874s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-05-03T21:45:32+08:00 ] ::1 /yimishop/Uploads/goods/20160318/M_14582807596_160x160.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-05-03T21:45:32+08:00 ] ::1 /yimishop/Uploads/goods/20160318/M_14582798784_160x160.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000819s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-05-03T21:46:01+08:00 ] ::1 /yimishop/Uploads/goods/20160318/M_14582798784_160x160.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-05-03T21:46:01+08:00 ] ::1 /yimishop/Uploads/goods/20160319/M_14583519271_160x160.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-05-03T21:46:01+08:00 ] ::1 /yimishop/Uploads/goods/20160319/M_14583518629_160x160.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000866s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-05-03T21:46:01+08:00 ] ::1 /yimishop/Uploads/goods/20160318/M_14582807596_160x160.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001415s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-05-03T21:46:01+08:00 ] ::1 /yimishop/Uploads/goods/20160319/M_14583519993_160x160.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+ERR: 无法加载模块:Uploads
+

@@ -1,0 +1,383 @@
+[ 2016-04-15T20:06:02+08:00 ] ::1 /yimishop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.027060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015930s ]
+SQL: SHOW COLUMNS FROM `er_goods` [ RunTime:0.1229s ]
+SQL: SELECT * FROM `er_goods` ORDER BY g_time desc  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000290s ]
+NOTIC: [8] Undefined index: account G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\172b237dad6c19ecd19d3f49b4a85426.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.098138s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.098279s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013769s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013944s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001236s ]
+
+[ 2016-04-15T20:06:08+08:00 ] ::1 /yimishop/Home/Product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000636s ]
+NOTIC: [8] Undefined index: uid G:\wamp\www\yimishop\Thinkshop\Home\Controller\ProductController.class.php 第 6 行.
+
+[ 2016-04-15T20:06:08+08:00 ] ::1 /yimishop/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+SQL: SHOW COLUMNS FROM `er_user` [ RunTime:0.0284s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000266s ]
+NOTIC: [8] Undefined index: pwd G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\76529125346a20bd00a90797650567e4.php 第 40 行.
+NOTIC: [8] Undefined index: remember G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\76529125346a20bd00a90797650567e4.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012148s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012285s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000508s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000640s ]
+
+[ 2016-04-15T20:06:19+08:00 ] ::1 /yimishop/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+SQL: SHOW COLUMNS FROM `er_user` [ RunTime:0.0047s ]
+SQL: SELECT `id`,`account`,`username` FROM `er_user` WHERE `account` = '2425399474@qq.com' AND `pwd` = '96e79218965eb72c92a549dd5a330112' LIMIT 1   [ RunTime:0.1535s ]
+
+[ 2016-04-15T20:06:19+08:00 ] ::1 /yimishop/Home/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+SQL: SHOW COLUMNS FROM `er_category` [ RunTime:0.0461s ]
+SQL: SHOW COLUMNS FROM `er_goods` [ RunTime:0.0025s ]
+SQL: SELECT `id`,`c_name` FROM `er_category` WHERE ( pid=0 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000343s ]
+NOTIC: [8] Undefined variable: good G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\22795e2a0a75403b36c822ae8e1869e8.php 第 175 行.
+NOTIC: [8] Undefined variable: good G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\22795e2a0a75403b36c822ae8e1869e8.php 第 182 行.
+NOTIC: [8] Undefined variable: good G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\22795e2a0a75403b36c822ae8e1869e8.php 第 188 行.
+NOTIC: [8] Undefined variable: good G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\22795e2a0a75403b36c822ae8e1869e8.php 第 189 行.
+NOTIC: [8] Undefined variable: good G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\22795e2a0a75403b36c822ae8e1869e8.php 第 197 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\22795e2a0a75403b36c822ae8e1869e8.php 第 197 行.
+NOTIC: [8] Array to string conversion G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\22795e2a0a75403b36c822ae8e1869e8.php 第 197 行.
+NOTIC: [8] Undefined variable: good G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\22795e2a0a75403b36c822ae8e1869e8.php 第 197 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\22795e2a0a75403b36c822ae8e1869e8.php 第 197 行.
+NOTIC: [8] Array to string conversion G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\22795e2a0a75403b36c822ae8e1869e8.php 第 197 行.
+NOTIC: [8] Undefined variable: good G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\22795e2a0a75403b36c822ae8e1869e8.php 第 197 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\22795e2a0a75403b36c822ae8e1869e8.php 第 197 行.
+NOTIC: [8] Array to string conversion G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\22795e2a0a75403b36c822ae8e1869e8.php 第 197 行.
+NOTIC: [8] Undefined variable: good G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\22795e2a0a75403b36c822ae8e1869e8.php 第 197 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\22795e2a0a75403b36c822ae8e1869e8.php 第 197 行.
+NOTIC: [8] Array to string conversion G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\22795e2a0a75403b36c822ae8e1869e8.php 第 197 行.
+NOTIC: [8] Undefined variable: good G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\22795e2a0a75403b36c822ae8e1869e8.php 第 197 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\22795e2a0a75403b36c822ae8e1869e8.php 第 197 行.
+NOTIC: [8] Array to string conversion G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\22795e2a0a75403b36c822ae8e1869e8.php 第 197 行.
+NOTIC: [8] Undefined variable: good G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\22795e2a0a75403b36c822ae8e1869e8.php 第 206 行.
+NOTIC: [8] Undefined variable: good G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\22795e2a0a75403b36c822ae8e1869e8.php 第 212 行.
+NOTIC: [8] Undefined variable: good G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\22795e2a0a75403b36c822ae8e1869e8.php 第 218 行.
+NOTIC: [8] Undefined variable: good G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\22795e2a0a75403b36c822ae8e1869e8.php 第 224 行.
+NOTIC: [8] Undefined variable: good G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\22795e2a0a75403b36c822ae8e1869e8.php 第 225 行.
+NOTIC: [8] Undefined variable: good G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\22795e2a0a75403b36c822ae8e1869e8.php 第 241 行.
+NOTIC: [8] Undefined variable: good G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\22795e2a0a75403b36c822ae8e1869e8.php 第 246 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019858s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019999s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000565s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000753s ]
+
+[ 2016-04-15T20:06:42+08:00 ] ::1 /yimishop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+SQL: SHOW COLUMNS FROM `er_goods` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `er_goods` ORDER BY g_time desc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000350s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012179s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012361s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000582s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000821s ]
+
+[ 2016-04-15T20:07:16+08:00 ] ::1 /yimishop/Home/Member/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+SQL: SHOW COLUMNS FROM `er_user` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `er_goods` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `er_activities` [ RunTime:0.0684s ]
+SQL: SELECT er_user.*,er_school.school FROM `er_user` LEFT JOIN `er_school` on er_user.scid=er_school.id  WHERE er_user.id = '3' LIMIT 1   [ RunTime:0.0969s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000377s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000720s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039232s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039606s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000889s ]
+SQL: SELECT er_user.*,er_school.school FROM `er_user` LEFT JOIN `er_school` on er_user.scid=er_school.id  WHERE er_user.id = '3' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `er_school` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `er_school`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000380s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.043876s ]
+NOTIC: [8] Use of undefined constant school - assumed 'school' G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7a208df919ea68f32b72c9e84e9549fb.php 第 10 行.
+NOTIC: [8] Array to string conversion G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7a208df919ea68f32b72c9e84e9549fb.php 第 10 行.
+NOTIC: [8] Use of undefined constant school - assumed 'school' G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7a208df919ea68f32b72c9e84e9549fb.php 第 10 行.
+NOTIC: [8] Array to string conversion G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7a208df919ea68f32b72c9e84e9549fb.php 第 10 行.
+NOTIC: [8] Use of undefined constant school - assumed 'school' G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7a208df919ea68f32b72c9e84e9549fb.php 第 10 行.
+NOTIC: [8] Array to string conversion G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7a208df919ea68f32b72c9e84e9549fb.php 第 10 行.
+NOTIC: [8] Use of undefined constant school - assumed 'school' G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7a208df919ea68f32b72c9e84e9549fb.php 第 10 行.
+NOTIC: [8] Array to string conversion G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7a208df919ea68f32b72c9e84e9549fb.php 第 10 行.
+NOTIC: [8] Use of undefined constant school - assumed 'school' G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7a208df919ea68f32b72c9e84e9549fb.php 第 10 行.
+NOTIC: [8] Array to string conversion G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7a208df919ea68f32b72c9e84e9549fb.php 第 10 行.
+NOTIC: [8] Use of undefined constant school - assumed 'school' G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7a208df919ea68f32b72c9e84e9549fb.php 第 10 行.
+NOTIC: [8] Array to string conversion G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7a208df919ea68f32b72c9e84e9549fb.php 第 10 行.
+NOTIC: [8] Use of undefined constant school - assumed 'school' G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7a208df919ea68f32b72c9e84e9549fb.php 第 10 行.
+NOTIC: [8] Array to string conversion G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7a208df919ea68f32b72c9e84e9549fb.php 第 10 行.
+NOTIC: [8] Use of undefined constant school - assumed 'school' G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7a208df919ea68f32b72c9e84e9549fb.php 第 10 行.
+NOTIC: [8] Array to string conversion G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7a208df919ea68f32b72c9e84e9549fb.php 第 10 行.
+NOTIC: [8] Use of undefined constant school - assumed 'school' G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7a208df919ea68f32b72c9e84e9549fb.php 第 10 行.
+NOTIC: [8] Array to string conversion G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7a208df919ea68f32b72c9e84e9549fb.php 第 10 行.
+NOTIC: [8] Use of undefined constant school - assumed 'school' G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7a208df919ea68f32b72c9e84e9549fb.php 第 10 行.
+NOTIC: [8] Array to string conversion G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7a208df919ea68f32b72c9e84e9549fb.php 第 10 行.
+NOTIC: [8] Use of undefined constant school - assumed 'school' G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7a208df919ea68f32b72c9e84e9549fb.php 第 10 行.
+NOTIC: [8] Array to string conversion G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7a208df919ea68f32b72c9e84e9549fb.php 第 10 行.
+NOTIC: [8] Use of undefined constant school - assumed 'school' G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7a208df919ea68f32b72c9e84e9549fb.php 第 10 行.
+NOTIC: [8] Array to string conversion G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7a208df919ea68f32b72c9e84e9549fb.php 第 10 行.
+NOTIC: [8] Use of undefined constant school - assumed 'school' G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7a208df919ea68f32b72c9e84e9549fb.php 第 10 行.
+NOTIC: [8] Array to string conversion G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7a208df919ea68f32b72c9e84e9549fb.php 第 10 行.
+NOTIC: [8] Use of undefined constant school - assumed 'school' G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7a208df919ea68f32b72c9e84e9549fb.php 第 10 行.
+NOTIC: [8] Array to string conversion G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7a208df919ea68f32b72c9e84e9549fb.php 第 10 行.
+NOTIC: [8] Use of undefined constant school - assumed 'school' G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7a208df919ea68f32b72c9e84e9549fb.php 第 10 行.
+NOTIC: [8] Array to string conversion G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7a208df919ea68f32b72c9e84e9549fb.php 第 10 行.
+NOTIC: [8] Use of undefined constant school - assumed 'school' G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7a208df919ea68f32b72c9e84e9549fb.php 第 10 行.
+NOTIC: [8] Array to string conversion G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7a208df919ea68f32b72c9e84e9549fb.php 第 10 行.
+NOTIC: [8] Use of undefined constant school - assumed 'school' G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7a208df919ea68f32b72c9e84e9549fb.php 第 10 行.
+NOTIC: [8] Array to string conversion G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7a208df919ea68f32b72c9e84e9549fb.php 第 10 行.
+NOTIC: [8] Use of undefined constant school - assumed 'school' G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7a208df919ea68f32b72c9e84e9549fb.php 第 10 行.
+NOTIC: [8] Array to string conversion G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7a208df919ea68f32b72c9e84e9549fb.php 第 10 行.
+NOTIC: [8] Use of undefined constant school - assumed 'school' G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7a208df919ea68f32b72c9e84e9549fb.php 第 10 行.
+NOTIC: [8] Array to string conversion G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7a208df919ea68f32b72c9e84e9549fb.php 第 10 行.
+NOTIC: [8] Use of undefined constant school - assumed 'school' G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7a208df919ea68f32b72c9e84e9549fb.php 第 10 行.
+NOTIC: [8] Array to string conversion G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7a208df919ea68f32b72c9e84e9549fb.php 第 10 行.
+NOTIC: [8] Use of undefined constant school - assumed 'school' G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7a208df919ea68f32b72c9e84e9549fb.php 第 10 行.
+NOTIC: [8] Array to string conversion G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7a208df919ea68f32b72c9e84e9549fb.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036137s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.015514s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.051639s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\wamp\www\yimishop\ThinkPHP\Library\Think\View.class.php:95) G:\wamp\www\yimishop\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\wamp\www\yimishop\ThinkPHP\Library\Think\View.class.php:95) G:\wamp\www\yimishop\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\wamp\www\yimishop\ThinkPHP\Library\Think\View.class.php:95) G:\wamp\www\yimishop\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001269s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001760s ]
+
+[ 2016-04-15T22:31:28+08:00 ] ::1 /yimishop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000644s ]
+SQL: SHOW COLUMNS FROM `er_goods` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `er_goods` ORDER BY g_time desc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000321s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058373s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000730s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000949s ]
+
+[ 2016-04-15T22:31:30+08:00 ] ::1 /yimishop/Home/Product/detail/gid/30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000929s ]
+SQL: SHOW COLUMNS FROM `er_goods` [ RunTime:0.0092s ]
+SQL: SHOW COLUMNS FROM `er_comm` [ RunTime:0.0076s ]
+SQL: SHOW COLUMNS FROM `er_activities` [ RunTime:0.0053s ]
+SQL: SELECT er_goods.*,er_user.username,er_school.school FROM `er_goods` LEFT JOIN er_user ON er_goods.uid=er_user.id LEFT JOIN er_school ON er_school.id=er_user.scid  WHERE er_goods.id = '30' LIMIT 1   [ RunTime:0.0017s ]
+NOTIC: [8] Undefined offset: 1 G:\wamp\www\yimishop\Thinkshop\Home\Controller\ProductController.class.php 第 86 行.
+NOTIC: [8] Undefined offset: 1 G:\wamp\www\yimishop\Thinkshop\Home\Controller\ProductController.class.php 第 87 行.
+SQL: SELECT `id`,`g_name`,`g_img`,`price` FROM `er_goods` WHERE (  `g_name` LIKE '%生姜洗发水%' OR `cid` = '10' ) AND `id` <> '30'  [ RunTime:0.0006s ]
+SQL: SELECT `id`,`g_name`,`g_img`,`price` FROM `er_goods` WHERE `uid` = 3 LIMIT 4   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `er_comm` WHERE `co_gid` = 30  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000208s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000357s ]
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 162 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 170 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 172 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 173 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 174 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 175 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 176 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029597s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029907s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000817s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001686s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001954s ]
+
+[ 2016-04-15T22:31:34+08:00 ] ::1 /yimishop/Home/Product/detail/gid/26
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000804s ]
+SQL: SHOW COLUMNS FROM `er_goods` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `er_comm` [ RunTime:0.0089s ]
+SQL: SHOW COLUMNS FROM `er_activities` [ RunTime:0.0047s ]
+SQL: SELECT er_goods.*,er_user.username,er_school.school FROM `er_goods` LEFT JOIN er_user ON er_goods.uid=er_user.id LEFT JOIN er_school ON er_school.id=er_user.scid  WHERE er_goods.id = '26' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 1 G:\wamp\www\yimishop\Thinkshop\Home\Controller\ProductController.class.php 第 86 行.
+NOTIC: [8] Undefined offset: 1 G:\wamp\www\yimishop\Thinkshop\Home\Controller\ProductController.class.php 第 87 行.
+SQL: SELECT `id`,`g_name`,`g_img`,`price` FROM `er_goods` WHERE (  `g_name` LIKE '%小王子%' OR `cid` = '8' ) AND `id` <> '26'  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`g_name`,`g_img`,`price` FROM `er_goods` WHERE `uid` = 5 LIMIT 4   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 3 G:\wamp\www\yimishop\Thinkshop\Home\Controller\ProductController.class.php 第 109 行.
+NOTIC: [8] Undefined offset: 1 G:\wamp\www\yimishop\Thinkshop\Home\Controller\ProductController.class.php 第 110 行.
+NOTIC: [8] Undefined offset: 4 G:\wamp\www\yimishop\Thinkshop\Home\Controller\ProductController.class.php 第 109 行.
+NOTIC: [8] Undefined offset: 1 G:\wamp\www\yimishop\Thinkshop\Home\Controller\ProductController.class.php 第 110 行.
+NOTIC: [8] Undefined offset: 5 G:\wamp\www\yimishop\Thinkshop\Home\Controller\ProductController.class.php 第 109 行.
+NOTIC: [8] Undefined offset: 1 G:\wamp\www\yimishop\Thinkshop\Home\Controller\ProductController.class.php 第 110 行.
+SQL: SELECT * FROM `er_comm` WHERE `co_gid` = 26  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000236s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000462s ]
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 162 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 170 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 172 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 173 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 174 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 175 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 176 行.
+NOTIC: [8] Undefined index: id G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 188 行.
+NOTIC: [8] Undefined index: id G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 188 行.
+NOTIC: [8] Undefined index: g_name G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 188 行.
+NOTIC: [8] Undefined index: price G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 188 行.
+NOTIC: [8] Undefined index: id G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 188 行.
+NOTIC: [8] Undefined index: id G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 188 行.
+NOTIC: [8] Undefined index: g_name G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 188 行.
+NOTIC: [8] Undefined index: price G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 188 行.
+NOTIC: [8] Undefined index: id G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 188 行.
+NOTIC: [8] Undefined index: id G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 188 行.
+NOTIC: [8] Undefined index: g_name G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 188 行.
+NOTIC: [8] Undefined index: price G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 188 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029570s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029783s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000667s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000859s ]
+
+[ 2016-04-15T22:31:38+08:00 ] ::1 /yimishop/Home/Product/detail/gid/29
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000824s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `er_goods` [ RunTime:0.0103s ]
+SQL: SHOW COLUMNS FROM `er_comm` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `er_activities` [ RunTime:0.0055s ]
+SQL: SELECT er_goods.*,er_user.username,er_school.school FROM `er_goods` LEFT JOIN er_user ON er_goods.uid=er_user.id LEFT JOIN er_school ON er_school.id=er_user.scid  WHERE er_goods.id = '29' LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined offset: 1 G:\wamp\www\yimishop\Thinkshop\Home\Controller\ProductController.class.php 第 86 行.
+NOTIC: [8] Undefined offset: 1 G:\wamp\www\yimishop\Thinkshop\Home\Controller\ProductController.class.php 第 87 行.
+SQL: SELECT `id`,`g_name`,`g_img`,`price` FROM `er_goods` WHERE (  `g_name` LIKE '%高等数学%' OR `cid` = '9' ) AND `id` <> '29'  [ RunTime:0.0025s ]
+SQL: SELECT `id`,`g_name`,`g_img`,`price` FROM `er_goods` WHERE `uid` = 2 LIMIT 6   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined offset: 3 G:\wamp\www\yimishop\Thinkshop\Home\Controller\ProductController.class.php 第 109 行.
+NOTIC: [8] Undefined offset: 1 G:\wamp\www\yimishop\Thinkshop\Home\Controller\ProductController.class.php 第 110 行.
+NOTIC: [8] Undefined offset: 4 G:\wamp\www\yimishop\Thinkshop\Home\Controller\ProductController.class.php 第 109 行.
+NOTIC: [8] Undefined offset: 1 G:\wamp\www\yimishop\Thinkshop\Home\Controller\ProductController.class.php 第 110 行.
+NOTIC: [8] Undefined offset: 5 G:\wamp\www\yimishop\Thinkshop\Home\Controller\ProductController.class.php 第 109 行.
+NOTIC: [8] Undefined offset: 1 G:\wamp\www\yimishop\Thinkshop\Home\Controller\ProductController.class.php 第 110 行.
+SQL: SELECT * FROM `er_comm` WHERE `co_gid` = 29  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000316s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000619s ]
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 162 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 170 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 172 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 173 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 174 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 175 行.
+NOTIC: [8] Undefined variable: godact G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 176 行.
+NOTIC: [8] Undefined index: id G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 188 行.
+NOTIC: [8] Undefined index: id G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 188 行.
+NOTIC: [8] Undefined index: g_name G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 188 行.
+NOTIC: [8] Undefined index: price G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 188 行.
+NOTIC: [8] Undefined index: id G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 188 行.
+NOTIC: [8] Undefined index: id G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 188 行.
+NOTIC: [8] Undefined index: g_name G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 188 行.
+NOTIC: [8] Undefined index: price G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 188 行.
+NOTIC: [8] Undefined index: id G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 188 行.
+NOTIC: [8] Undefined index: id G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 188 行.
+NOTIC: [8] Undefined index: g_name G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 188 行.
+NOTIC: [8] Undefined index: price G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Home\7b8cdf4d07265972ccb74f36dff10e65.php 第 188 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028108s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000821s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001064s ]
+

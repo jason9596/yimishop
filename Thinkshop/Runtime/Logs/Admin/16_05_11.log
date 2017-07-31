@@ -1,0 +1,667 @@
+[ 2016-05-11T21:47:09+08:00 ] ::1 /yimishop/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+
+[ 2016-05-11T21:47:09+08:00 ] ::1 /yimishop/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000877s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001258s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2016-05-11T21:47:49+08:00 ] ::1 /yimishop/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001733s ]
+SQL: SHOW COLUMNS FROM `er_adm` [ RunTime:0.0028s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000290s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057378s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057566s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000800s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000879s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001045s ]
+
+[ 2016-05-11T21:47:55+08:00 ] ::1 /yimishop/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002093s ]
+SQL: SHOW COLUMNS FROM `er_adm` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `er_adm` WHERE `name` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-05-11T21:47:55+08:00 ] ::1 /yimishop/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001091s ]
+SQL: SHOW COLUMNS FROM `er_adm` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `er_adm` WHERE `name` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `er_adm` SET `logtime`='1462974475',`logip`='0.0.0.0' WHERE ( id=1 ) [ RunTime:0.1952s ]
+NOTIC: [8] Undefined index: pwd G:\wamp\www\yimishop\Thinkshop\Admin\Controller\LoginController.class.php 第 22 行.
+
+[ 2016-05-11T21:47:55+08:00 ] ::1 /yimishop/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000337s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048467s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048642s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000850s ]
+
+[ 2016-05-11T21:47:55+08:00 ] ::1 /yimishop/Admin/Index/left
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000849s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001189s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000202s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000509s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016618s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016895s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000788s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000729s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000895s ]
+
+[ 2016-05-11T21:47:55+08:00 ] ::1 /yimishop/Admin/Index/top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000764s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001365s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000291s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008537s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008695s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000934s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001147s ]
+
+[ 2016-05-11T21:47:55+08:00 ] ::1 /yimishop/Admin/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000834s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001382s ]
+SQL: SHOW COLUMNS FROM `er_adm` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `er_adm` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000428s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027516s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027676s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000742s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000986s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001147s ]
+
+[ 2016-05-11T21:48:00+08:00 ] ::1 /yimishop/Admin/Goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001282s ]
+SQL: SHOW COLUMNS FROM `er_category` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`c_name`,`pid` FROM `er_category`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `er_goods` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `er_user` [ RunTime:0.0028s ]
+SQL: SELECT g.*,cate.c_name FROM er_goods g INNER JOIN er_category cate on cate.id=g.cid  WHERE `is_lock` = 1 LIMIT 0,15   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `er_goods` WHERE `is_lock` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000294s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024264s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024454s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000915s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000950s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001112s ]
+
+[ 2016-05-11T21:48:05+08:00 ] ::1 /yimishop/Admin/Goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+SQL: SHOW COLUMNS FROM `er_category` [ RunTime:0.0026s ]
+SQL: SELECT `id`,`c_name`,`pid` FROM `er_category`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `er_goods` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `er_user` [ RunTime:0.0024s ]
+SQL: SELECT g.*,cate.c_name FROM er_goods g INNER JOIN er_category cate on cate.id=g.cid  WHERE `is_lock` = 1 LIMIT 0,15   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `er_goods` WHERE `is_lock` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008174s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008341s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000652s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000786s ]
+
+[ 2016-05-11T21:48:06+08:00 ] ::1 /yimishop/Admin/Goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+SQL: SHOW COLUMNS FROM `er_category` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`c_name`,`pid` FROM `er_category`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `er_goods` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `er_user` [ RunTime:0.0027s ]
+SQL: SELECT g.*,cate.c_name FROM er_goods g INNER JOIN er_category cate on cate.id=g.cid  WHERE `is_lock` = 1 LIMIT 0,15   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `er_goods` WHERE `is_lock` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000284s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008234s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008379s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000650s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000774s ]
+
+[ 2016-05-11T21:48:07+08:00 ] ::1 /yimishop/Admin/Goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+SQL: SHOW COLUMNS FROM `er_category` [ RunTime:0.0027s ]
+SQL: SELECT `id`,`c_name`,`pid` FROM `er_category`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `er_goods` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `er_user` [ RunTime:0.0024s ]
+SQL: SELECT g.*,cate.c_name FROM er_goods g INNER JOIN er_category cate on cate.id=g.cid  WHERE `is_lock` = 1 LIMIT 0,15   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `er_goods` WHERE `is_lock` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000255s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008283s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008440s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000649s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000799s ]
+
+[ 2016-05-11T21:48:07+08:00 ] ::1 /yimishop/Admin/Goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000950s ]
+SQL: SHOW COLUMNS FROM `er_category` [ RunTime:0.0031s ]
+SQL: SELECT `id`,`c_name`,`pid` FROM `er_category`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `er_goods` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `er_user` [ RunTime:0.0024s ]
+SQL: SELECT g.*,cate.c_name FROM er_goods g INNER JOIN er_category cate on cate.id=g.cid  WHERE `is_lock` = 1 LIMIT 0,15   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `er_goods` WHERE `is_lock` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008205s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008361s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000629s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000621s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000755s ]
+
+[ 2016-05-11T21:48:08+08:00 ] ::1 /yimishop/Admin/Goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000848s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001030s ]
+SQL: SHOW COLUMNS FROM `er_category` [ RunTime:0.0028s ]
+SQL: SELECT `id`,`c_name`,`pid` FROM `er_category`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `er_goods` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `er_user` [ RunTime:0.0027s ]
+SQL: SELECT g.*,cate.c_name FROM er_goods g INNER JOIN er_category cate on cate.id=g.cid  WHERE `is_lock` = 1 LIMIT 0,15   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `er_goods` WHERE `is_lock` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000178s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000435s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010526s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010708s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000841s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000808s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000959s ]
+
+[ 2016-05-11T21:48:11+08:00 ] ::1 /yimishop/Admin/Goods/comm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+SQL: SHOW COLUMNS FROM `er_comm` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `er_admin` [ RunTime:0.0024s ]
+SQL: SELECT `a_power` FROM `er_admin` WHERE `uid` = null LIMIT 1   [ RunTime:0.0003s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'co_title' in 'field list'
+
+[ 2016-05-11T21:48:15+08:00 ] ::1 /yimishop/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001022s ]
+SQL: SHOW COLUMNS FROM `er_category` [ RunTime:0.0025s ]
+SQL: SELECT `id`,`c_name`,`pid`,`is_look` FROM `er_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000310s ]
+NOTIC: [8] Undefined variable: god G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\73730702fe7632ff7d60551e9d65c7d3.php 第 32 行.
+NOTIC: [8] Undefined variable: god G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\73730702fe7632ff7d60551e9d65c7d3.php 第 32 行.
+NOTIC: [8] Undefined variable: god G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\73730702fe7632ff7d60551e9d65c7d3.php 第 32 行.
+NOTIC: [8] Undefined variable: god G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\73730702fe7632ff7d60551e9d65c7d3.php 第 32 行.
+NOTIC: [8] Undefined variable: god G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\73730702fe7632ff7d60551e9d65c7d3.php 第 32 行.
+NOTIC: [8] Undefined variable: god G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\73730702fe7632ff7d60551e9d65c7d3.php 第 32 行.
+NOTIC: [8] Undefined variable: god G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\73730702fe7632ff7d60551e9d65c7d3.php 第 32 行.
+NOTIC: [8] Undefined variable: god G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\73730702fe7632ff7d60551e9d65c7d3.php 第 32 行.
+NOTIC: [8] Undefined variable: god G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\73730702fe7632ff7d60551e9d65c7d3.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046033s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046177s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000675s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000810s ]
+
+[ 2016-05-11T21:48:30+08:00 ] ::1 /yimishop/Admin/Goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000984s ]
+SQL: SHOW COLUMNS FROM `er_category` [ RunTime:0.0029s ]
+SQL: SELECT `id`,`c_name`,`pid` FROM `er_category`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `er_goods` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `er_user` [ RunTime:0.0025s ]
+SQL: SELECT g.*,cate.c_name FROM er_goods g INNER JOIN er_category cate on cate.id=g.cid  WHERE `is_lock` = 1 LIMIT 0,15   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `er_goods` WHERE `is_lock` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008490s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008631s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000720s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000851s ]
+
+[ 2016-05-11T21:48:39+08:00 ] ::1 /yimishop/Admin/Goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001352s ]
+SQL: SHOW COLUMNS FROM `er_category` [ RunTime:0.0032s ]
+SQL: SELECT `id`,`c_name`,`pid` FROM `er_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `er_goods` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `er_user` [ RunTime:0.0029s ]
+SQL: SELECT g.*,cate.c_name FROM er_goods g INNER JOIN er_category cate on cate.id=g.cid  WHERE `is_lock` = 1 LIMIT 0,15   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `er_goods` WHERE `is_lock` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000427s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009867s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001160s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001309s ]
+
+[ 2016-05-11T21:50:17+08:00 ] ::1 /yimishop/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001222s ]
+SQL: SHOW COLUMNS FROM `er_category` [ RunTime:0.0028s ]
+SQL: SELECT `id`,`c_name`,`pid`,`is_look` FROM `er_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000255s ]
+NOTIC: [8] Undefined variable: god G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\73730702fe7632ff7d60551e9d65c7d3.php 第 32 行.
+NOTIC: [8] Undefined variable: god G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\73730702fe7632ff7d60551e9d65c7d3.php 第 32 行.
+NOTIC: [8] Undefined variable: god G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\73730702fe7632ff7d60551e9d65c7d3.php 第 32 行.
+NOTIC: [8] Undefined variable: god G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\73730702fe7632ff7d60551e9d65c7d3.php 第 32 行.
+NOTIC: [8] Undefined variable: god G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\73730702fe7632ff7d60551e9d65c7d3.php 第 32 行.
+NOTIC: [8] Undefined variable: god G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\73730702fe7632ff7d60551e9d65c7d3.php 第 32 行.
+NOTIC: [8] Undefined variable: god G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\73730702fe7632ff7d60551e9d65c7d3.php 第 32 行.
+NOTIC: [8] Undefined variable: god G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\73730702fe7632ff7d60551e9d65c7d3.php 第 32 行.
+NOTIC: [8] Undefined variable: god G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\73730702fe7632ff7d60551e9d65c7d3.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009840s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009978s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000661s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000784s ]
+
+[ 2016-05-11T21:50:26+08:00 ] ::1 /yimishop/Admin/Category/edit/cid/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001278s ]
+SQL: SHOW COLUMNS FROM `er_category` [ RunTime:0.0024s ]
+SQL: SELECT `id`,`c_name`,`pid` FROM `er_category`  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`c_name`,`pid`,`is_look` FROM `er_category` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000276s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.113504s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.113667s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000930s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001138s ]
+
+[ 2016-05-11T21:50:37+08:00 ] ::1 /yimishop/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+SQL: SHOW COLUMNS FROM `er_category` [ RunTime:0.0032s ]
+SQL: SELECT `id`,`c_name`,`pid`,`is_look` FROM `er_category`  [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `er_category` WHERE `c_name` = 'aaa' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008075s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008265s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000617s ]
+
+[ 2016-05-11T21:50:41+08:00 ] ::1 /yimishop/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+SQL: SHOW COLUMNS FROM `er_category` [ RunTime:0.0029s ]
+SQL: SELECT `id`,`c_name`,`pid`,`is_look` FROM `er_category`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+NOTIC: [8] Undefined variable: god G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\73730702fe7632ff7d60551e9d65c7d3.php 第 32 行.
+NOTIC: [8] Undefined variable: god G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\73730702fe7632ff7d60551e9d65c7d3.php 第 32 行.
+NOTIC: [8] Undefined variable: god G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\73730702fe7632ff7d60551e9d65c7d3.php 第 32 行.
+NOTIC: [8] Undefined variable: god G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\73730702fe7632ff7d60551e9d65c7d3.php 第 32 行.
+NOTIC: [8] Undefined variable: god G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\73730702fe7632ff7d60551e9d65c7d3.php 第 32 行.
+NOTIC: [8] Undefined variable: god G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\73730702fe7632ff7d60551e9d65c7d3.php 第 32 行.
+NOTIC: [8] Undefined variable: god G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\73730702fe7632ff7d60551e9d65c7d3.php 第 32 行.
+NOTIC: [8] Undefined variable: god G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\73730702fe7632ff7d60551e9d65c7d3.php 第 32 行.
+NOTIC: [8] Undefined variable: god G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\73730702fe7632ff7d60551e9d65c7d3.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009397s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000579s ]
+
+[ 2016-05-11T21:51:31+08:00 ] ::1 /yimishop/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+SQL: SHOW COLUMNS FROM `er_category` [ RunTime:0.0039s ]
+SQL: SELECT `id`,`c_name`,`pid`,`is_look` FROM `er_category`  [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `er_category` WHERE `c_name` = '图片教材' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008248s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000524s ]
+
+[ 2016-05-11T21:51:37+08:00 ] ::1 /yimishop/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+SQL: SHOW COLUMNS FROM `er_category` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`c_name`,`pid`,`is_look` FROM `er_category`  [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `er_category` WHERE `c_name` = '图书教材' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+NOTIC: [8] Undefined variable: god G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\73730702fe7632ff7d60551e9d65c7d3.php 第 32 行.
+NOTIC: [8] Undefined variable: god G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\73730702fe7632ff7d60551e9d65c7d3.php 第 32 行.
+NOTIC: [8] Undefined variable: god G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\73730702fe7632ff7d60551e9d65c7d3.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008317s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008492s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000581s ]
+
+[ 2016-05-11T21:51:45+08:00 ] ::1 /yimishop/Admin/Category/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000722s ]
+SQL: SHOW COLUMNS FROM `er_category` [ RunTime:0.0026s ]
+SQL: SELECT `id`,`c_name`,`pid` FROM `er_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+NOTIC: [8] Undefined variable: cate G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\e8f3ba5adddbf1a6cf0d3d2859cf145d.php 第 21 行.
+NOTIC: [8] Undefined variable: cate G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\e8f3ba5adddbf1a6cf0d3d2859cf145d.php 第 27 行.
+NOTIC: [8] Undefined variable: cate G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\e8f3ba5adddbf1a6cf0d3d2859cf145d.php 第 27 行.
+NOTIC: [8] Undefined variable: cate G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\e8f3ba5adddbf1a6cf0d3d2859cf145d.php 第 27 行.
+NOTIC: [8] Undefined variable: cate G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\e8f3ba5adddbf1a6cf0d3d2859cf145d.php 第 27 行.
+NOTIC: [8] Undefined variable: cate G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\e8f3ba5adddbf1a6cf0d3d2859cf145d.php 第 27 行.
+NOTIC: [8] Undefined variable: cate G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\e8f3ba5adddbf1a6cf0d3d2859cf145d.php 第 27 行.
+NOTIC: [8] Undefined variable: cate G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\e8f3ba5adddbf1a6cf0d3d2859cf145d.php 第 27 行.
+NOTIC: [8] Undefined variable: cate G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\e8f3ba5adddbf1a6cf0d3d2859cf145d.php 第 27 行.
+NOTIC: [8] Undefined variable: cate G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\e8f3ba5adddbf1a6cf0d3d2859cf145d.php 第 27 行.
+NOTIC: [8] Undefined variable: cate G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\e8f3ba5adddbf1a6cf0d3d2859cf145d.php 第 33 行.
+NOTIC: [8] Undefined variable: cate G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\e8f3ba5adddbf1a6cf0d3d2859cf145d.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009833s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009976s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000589s ]
+
+[ 2016-05-11T21:52:05+08:00 ] ::1 /yimishop/Admin/Category/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+SQL: SHOW COLUMNS FROM `er_category` [ RunTime:0.0039s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000322s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054738s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054960s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000446s ]
+
+[ 2016-05-11T21:52:08+08:00 ] ::1 /yimishop/Admin/Category/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+SQL: SHOW COLUMNS FROM `er_category` [ RunTime:0.0025s ]
+SQL: SELECT `id`,`c_name`,`pid` FROM `er_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000265s ]
+NOTIC: [8] Undefined variable: cate G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\e8f3ba5adddbf1a6cf0d3d2859cf145d.php 第 21 行.
+NOTIC: [8] Undefined variable: cate G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\e8f3ba5adddbf1a6cf0d3d2859cf145d.php 第 27 行.
+NOTIC: [8] Undefined variable: cate G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\e8f3ba5adddbf1a6cf0d3d2859cf145d.php 第 27 行.
+NOTIC: [8] Undefined variable: cate G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\e8f3ba5adddbf1a6cf0d3d2859cf145d.php 第 27 行.
+NOTIC: [8] Undefined variable: cate G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\e8f3ba5adddbf1a6cf0d3d2859cf145d.php 第 27 行.
+NOTIC: [8] Undefined variable: cate G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\e8f3ba5adddbf1a6cf0d3d2859cf145d.php 第 27 行.
+NOTIC: [8] Undefined variable: cate G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\e8f3ba5adddbf1a6cf0d3d2859cf145d.php 第 27 行.
+NOTIC: [8] Undefined variable: cate G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\e8f3ba5adddbf1a6cf0d3d2859cf145d.php 第 27 行.
+NOTIC: [8] Undefined variable: cate G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\e8f3ba5adddbf1a6cf0d3d2859cf145d.php 第 27 行.
+NOTIC: [8] Undefined variable: cate G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\e8f3ba5adddbf1a6cf0d3d2859cf145d.php 第 27 行.
+NOTIC: [8] Undefined variable: cate G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\e8f3ba5adddbf1a6cf0d3d2859cf145d.php 第 33 行.
+NOTIC: [8] Undefined variable: cate G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\e8f3ba5adddbf1a6cf0d3d2859cf145d.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011032s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011173s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000545s ]
+
+[ 2016-05-11T21:52:12+08:00 ] ::1 /yimishop/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+SQL: SHOW COLUMNS FROM `er_category` [ RunTime:0.0031s ]
+SQL: SELECT `id`,`c_name`,`pid`,`is_look` FROM `er_category`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000402s ]
+NOTIC: [8] Undefined variable: god G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\73730702fe7632ff7d60551e9d65c7d3.php 第 32 行.
+NOTIC: [8] Undefined variable: god G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\73730702fe7632ff7d60551e9d65c7d3.php 第 32 行.
+NOTIC: [8] Undefined variable: god G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\73730702fe7632ff7d60551e9d65c7d3.php 第 32 行.
+NOTIC: [8] Undefined variable: god G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\73730702fe7632ff7d60551e9d65c7d3.php 第 32 行.
+NOTIC: [8] Undefined variable: god G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\73730702fe7632ff7d60551e9d65c7d3.php 第 32 行.
+NOTIC: [8] Undefined variable: god G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\73730702fe7632ff7d60551e9d65c7d3.php 第 32 行.
+NOTIC: [8] Undefined variable: god G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\73730702fe7632ff7d60551e9d65c7d3.php 第 32 行.
+NOTIC: [8] Undefined variable: god G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\73730702fe7632ff7d60551e9d65c7d3.php 第 32 行.
+NOTIC: [8] Undefined variable: god G:\wamp\www\yimishop\Thinkshop\Runtime\Cache\Admin\73730702fe7632ff7d60551e9d65c7d3.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009040s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009199s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000563s ]
+

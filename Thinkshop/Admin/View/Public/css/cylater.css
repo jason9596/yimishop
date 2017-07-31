@@ -1,0 +1,112 @@
+.cylater-box a {
+	text-decoration: none;
+	color: #000;
+}
+.cylater-box {
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	background: #fff;
+	width: 300px;
+	min-width: 300px;
+	box-shadow: 0px 0px 10px #666;
+	z-index: 9999;
+}
+.cylater-box .cylater-content {
+	padding: 10px;
+	min-height: 60px;
+	margin-top: 25px;
+}
+.cylater-box .cylater-content .cylater-label {
+	text-align: left;
+	min-height: 30px;
+	line-height: 30px;
+}
+.cylater-box .cylater-content input {
+	width: 100%;
+	border: #ccc 1px solid;
+	height: 30px;
+	line-height: 30px;
+}
+.cylater-box .cylater-msg {
+	font-size:14px;
+	line-height:1.5;
+	padding: 10px;
+	margin-top: 25px;
+	*padding-top:35px;
+	min-height: 30px;
+}
+
+.cylater-box .cylater-page{
+			padding: 10px;
+}
+		
+.cylater-box .cylater-title{
+	display: block;
+	height: 25px;
+	line-height: 25px;
+	padding: 5px 15px 0px 15px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	-text-overflow: ellipsis;
+	overflow: hidden;
+	
+}
+
+		
+.cylater-box .cylater-load{
+	background: url(../img/loading.gif) center no-repeat;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+ 	vertical-align: middle;
+ 	padding-right: 10px;
+}
+
+/* 关闭按钮 */
+
+.cylater-box .cylater-close {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	display: block;
+}
+.cylater-box .cylater-close:hover {
+	background: #f2f2f2;
+}
+/*确定按钮*/
+
+.cylater-box .cylater-btns {
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+	border-top: #f2f2f2 1px solid;
+	padding: 0px;
+}
+.cylater-box .cylater-btns a {
+	float:left;
+}
+.cylater-box .cylater-btns a:hover {
+	background: #f2f2f2;
+}
+.cylater-box .cylater-ok,
+.cylater-cancel {
+	width: 100%;
+}
+.cylater-mask {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 1024px;
+	height: 1000px;
+	background: #000;
+	opacity: 0.3;
+	filter:alpha(opacity=50);  
+	width: 100%;
+	z-index: 9998;
+}
+/*www.sucaijiayuan.com*/

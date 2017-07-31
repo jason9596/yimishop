@@ -1,0 +1,96 @@
+[ 2016-05-12T22:08:12+08:00 ] ::1 /yimishop/Uploads/_160x160.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001143s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-05-12T22:08:28+08:00 ] ::1 /yimishop/Uploads/_160x160.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-05-12T22:08:37+08:00 ] ::1 /yimishop/Uploads/_160x160.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000905s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-05-12T22:08:58+08:00 ] ::1 /yimishop/Uploads/_160x160.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-05-12T22:10:53+08:00 ] ::1 /yimishop/Uploads/_160x160.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001060s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-05-12T22:10:57+08:00 ] ::1 /yimishop/Uploads/_160x160.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-05-12T22:43:34+08:00 ] ::1 /yimishop/Uploads/img/touxiang.jpeg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-05-12T22:43:35+08:00 ] ::1 /yimishop/Uploads/img/touxiang.jpeg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-05-12T22:43:35+08:00 ] ::1 /yimishop/Uploads/img/touxiang.jpeg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-05-12T22:43:35+08:00 ] ::1 /yimishop/Uploads/img/touxiang.jpeg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000823s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-05-12T22:43:35+08:00 ] ::1 /yimishop/Uploads/img/touxiang.jpeg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001360s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-05-12T22:45:30+08:00 ] ::1 /yimishop/Uploads/img/touxiang.jpeg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-05-12T22:45:31+08:00 ] ::1 /yimishop/Uploads/img/touxiang.jpeg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-05-12T22:45:31+08:00 ] ::1 /yimishop/Uploads/img/touxiang.jpeg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000949s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-05-12T22:45:35+08:00 ] ::1 /yimishop/Uploads/img/touxiang.jpeg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-05-12T22:50:48+08:00 ] ::1 /yimishop/Public/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001317s ]
+ERR: 无法加载模块:Public
+

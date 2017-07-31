@@ -1,0 +1,39 @@
+body {
+    margin:0px;
+    padding:0px; 
+}
+#houtai {
+    position:absolute;
+    left:34%;
+    top:80px; 
+    width:400px;
+    height:500px;
+    font-size:18px;
+    margin:0 auto;    
+}
+.title {
+    height:50px;
+    line-height:50px;
+    margin-left:10px;
+    font-size:28px;  
+    margin-bottom:10px;    
+}
+.form {
+    padding-top:10px;
+    padding-bottom:10px;  
+    padding-left:20px;
+    margin-left:10px;
+    border:1px solid #aaa; 
+    border-radius:2px;  
+}
+tr {
+    height:30px;
+    width:600px;
+}
+.f {
+    height:30px;
+    width:330px;
+    border:1px solid #aaa;
+    border-radius:5px; 
+    line-height:30px; 
+}
